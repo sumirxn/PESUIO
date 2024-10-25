@@ -24,6 +24,8 @@ Working with snapshots and the Git staging area
 |git diff --staged|diff of what is staged but not yet committed|
 |git commit -m “[descriptive message]”|commit your staged content as a new commit snapshot|
 
+Git for All Platforms: http://git-scm.com
+
 # SETUP
 
 Configuring user information used across all local repositories
@@ -42,7 +44,15 @@ Isolating work in branches, changing context, and integrating changes
 |git branch [branch-name]|create a new branch at the current commit|
 |git checkout|switch to another branch and check it out into your working directory|
 |git merge [branch]|merge the specified branch’s history into the current one|
-|git log|show all commits in the current branch’s history|# INSPECT & COMPARE
+|git log|show all commits in the current branch’s history|
+
+# SETUP & INIT
+
+Configuring user information, initializing and cloning repositories
+
+|git init|initialize an existing directory as a Git repository|
+|---|---|
+|git clone [url]|retrieve an entire repository from a hosted location via URL|# INSPECT & COMPARE
 
 Examining logs, diffs and object information
 
@@ -74,10 +84,6 @@ Versioning file removes and path changes
 |git log --stat -M|show all commit logs with indication of any paths that moved|
 |git rebase [branch]|apply any commits of current branch ahead of specified one|
 |git reset --hard [commit]|clear staging area, rewrite working tree from specified commit|
-
-# REWRITE HISTORY
-
-Rewriting branches, updating commits and clearing history
 
 # TEMPORARY COMMITS
 
