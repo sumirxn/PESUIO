@@ -237,3 +237,4 @@ gemma-7b-it:
 The provided text does not contain any information regarding what ENSO is, so I am unable to answer this query from the given context.
 
 Conclusion: The llama-3.1-70b-versatile model is giving the right answer but clearly the mixtral-8x7b-32768 model is much more accurate, providing more information and explanation. The Llama model gives the answer just to the point, but the Mixtral model gives a much more elaborate answer with a lot more explanation and context. The gemma-7b-it model on the other hand is not even generating an answer
+
