@@ -1,0 +1,24 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is 2024.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic}
+  agent: researcher
+
+summarizing_task:
+  description: >
+    Review the context you got and create a detailed summary for the {topic} that contains all the necessary information. It should 
+    be simple and easy to read and understand and should give an overview of the {topic} 
+  expected_output: >
+    A detailed summary that is given in points. It must contain flowcharts and diagrams that will help make the 
+    contents easier to understand. 
+  agent: summarizer
+
+question_task:
+  description: >
+    Generate relevant questions about the {topic}. 
+  expected_output: >
+    A set of 10 questions that can be answered from the given summary.
+  agent: questions
