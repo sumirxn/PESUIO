@@ -12,7 +12,7 @@ summarizing_task:
     Review the context you got and create a detailed summary for the {topic} that contains all the necessary information. It should 
     be simple and easy to read and understand and should give an overview of the {topic} 
   expected_output: >
-    A detailed summary that is given in points. It must contain flowcharts and diagrams that will help make the 
+    A detailed summary that is given in points that will help make the 
     contents easier to understand. 
   agent: summarizer
 
@@ -22,3 +22,12 @@ question_task:
   expected_output: >
     A set of 10 questions that can be answered from the given summary.
   agent: questions
+
+flowchart_task:
+  description: >
+    It is a flowchart generating tool. It makes a mind map of all the important information to help the user understand visually
+  expected_output: >
+    A mind map with all the important concepts in a brief way.
+  agent: summarizer
+
+    
